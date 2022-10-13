@@ -10,8 +10,6 @@ on:
     # Apply on to those branches (https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-including-branches)
     branchs: [clamav-defaultdb]
 
-docker pull clamav/clamav:latest
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   clamAV:
